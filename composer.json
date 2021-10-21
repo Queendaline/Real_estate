@@ -1,0 +1,32 @@
+{
+  "autoload": {
+    "psr-0": {
+    "Zikzay": "app/"
+    },
+    "files": [
+      "config/app.php",
+      "config/database.php"
+    ]
+  },
+  "require-dev": {
+    "fzaninotto/faker": "1.4.0"
+    },
+  "require": {
+    "ext-pdo": "*",
+    "ext-readline": "*",
+    "ext-json": "*",
+    "ext-openssl": "*",
+    "phpmailer/phpmailer": "^6.1",
+    "league/oauth2-client": "^2.5",
+    "hayageek/oauth2-yahoo": "^2.0",
+    "stevenmaguire/oauth2-microsoft": "^2.2",
+    "symfony/polyfill-mbstring": "^1.18",
+    "ext-curl": "*",
+    "vlucas/phpdotenv": "^5.3",
+    "mpdf/mpdf": "^8.0",
+    "yabacon/paystack-php": "^2.2",
+    "aimtoget/aimtoget-agent-lib": "^0.1.6",
+    "flutterwavedev/flutterwave-v3": "^1.0",
+    "kreait/firebase-php": "^5.14"
+  }
+}

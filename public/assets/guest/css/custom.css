@@ -1,0 +1,14 @@
+.hp-6 .btn .homepage-3 {
+    background: linear-gradient(yellow, red) !important;
+}
+.btn-outline-primary{
+    color: white !important;
+}
+.form-control{
+    border-radius: 10px !important;
+    margin-bottom: 50px;
+    padding: 25px 0px !important;
+}
+.inner-pages .form-control {
+    border: 1px solid rgb(210, 228, 243);
+}
